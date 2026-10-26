@@ -13,7 +13,6 @@ Parameters:
 
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.special import lambertw
 from modelA import MichelisMentenGeneralizedModel
 
 def MichelisMentenExplicitModelB(K: float, x_start: float, t) -> float:
